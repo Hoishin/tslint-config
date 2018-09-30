@@ -1,0 +1,25 @@
+{
+	"name": "@hoishin/tslint-config",
+	"version": "0.1.0",
+	"description": "Hoishin's personal TSLint configuration",
+	"main": "build/index.js",
+	"files": [
+		"build"
+	],
+	"repository": "https://github.com/hoishin/tslint-config",
+	"author": "Hoishin",
+	"license": "MIT",
+	"peerDependencies": {
+		"tslint": ">=5.11.0"
+	},
+	"devDependencies": {
+		"del-cli": "^1.1.0",
+		"np": "^3.0.4",
+		"tslint": "^5.11.0",
+		"typescript": "^3.1.1"
+	},
+	"scripts": {
+		"test": "yarn build && (cd test && yarn --check-files && yarn tslint --project .)",
+		"build": "del build && tsc --project ."
+	}
+}
