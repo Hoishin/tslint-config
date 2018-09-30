@@ -9,6 +9,9 @@
 	"repository": "https://github.com/hoishin/tslint-config",
 	"author": "Hoishin",
 	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
 	"peerDependencies": {
 		"tslint": ">=5.11.0"
 	},
