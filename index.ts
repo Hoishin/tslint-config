@@ -86,7 +86,7 @@ export = {
 			true,
 			{
 				'import-sources-order': 'case-insensitive',
-				'grouped-imports': true,
+				'grouped-imports': false,
 				'named-imports-order': 'case-insensitive',
 				'module-source-path': 'full',
 			},
