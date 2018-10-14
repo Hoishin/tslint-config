@@ -79,7 +79,7 @@ export = {
 		'no-unnecessary-callback-wrapper': true,
 		'no-unnecessary-initializer': true,
 		'number-literal-format': true,
-		'object-literal-key-quotes': true,
+		'object-literal-key-quotes': [true, 'as-needed'],
 		'object-literal-shorthand': true,
 		'one-variable-per-declaration': true,
 		'ordered-imports': [
