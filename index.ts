@@ -2,7 +2,6 @@ export = {
 	rules: {
 		// TypeScript-specific
 		'adjacent-overload-signatures': true,
-		'member-access': true,
 		'no-any': true,
 		'no-inferrable-types': true,
 		'no-unnecessary-type-assertion': true,
@@ -83,6 +82,15 @@ export = {
 		'object-literal-key-quotes': true,
 		'object-literal-shorthand': true,
 		'one-variable-per-declaration': true,
+		'ordered-imports': [
+			true,
+			{
+				'import-sources-order': 'case-insensitive',
+				'grouped-imports': true,
+				'named-imports-order': 'case-insensitive',
+				'module-source-path': 'full',
+			},
+		],
 		'prefer-function-over-method': true,
 		'prefer-method-signature': true,
 		'prefer-switch': true,
