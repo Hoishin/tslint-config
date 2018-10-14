@@ -1,6 +1,6 @@
 {
 	"name": "@hoishin/tslint-config",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "Sharable TSLint configuration",
 	"main": "build/index.js",
 	"files": [
