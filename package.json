@@ -1,28 +1,27 @@
 {
 	"name": "@hoishin/tslint-config",
 	"version": "2.0.2",
-	"description": "Sharable TSLint configuration",
-	"main": "build/index.js",
+	"description": "Hoishin's TSLint configuration",
+	"repository": "https://github.com/hoishin/tslint-config",
+	"license": "MIT",
+	"author": "Hoishin <hoishinxii@gmail.com>",
 	"files": [
 		"build"
 	],
-	"repository": "https://github.com/hoishin/tslint-config",
-	"author": "Hoishin",
-	"license": "MIT",
-	"publishConfig": {
-		"access": "public"
+	"main": "build/index.js",
+	"scripts": {
+		"build": "del build && tsc --project .",
+		"test": "yarn build && (cd test && yarn --check-files && yarn tslint --project .)"
+	},
+	"devDependencies": {
+		"del-cli": "^1.1.0",
+		"tslint": "^5.11.0",
+		"typescript": "^3.1.1"
 	},
 	"peerDependencies": {
 		"tslint": ">=5.11.0"
 	},
-	"devDependencies": {
-		"del-cli": "^1.1.0",
-		"np": "^3.0.4",
-		"tslint": "^5.11.0",
-		"typescript": "^3.1.1"
-	},
-	"scripts": {
-		"test": "yarn build && (cd test && yarn --check-files && yarn tslint --project .)",
-		"build": "del build && tsc --project ."
+	"publishConfig": {
+		"access": "public"
 	}
 }
