@@ -11,10 +11,13 @@
 	"main": "build/index.js",
 	"scripts": {
 		"build": "del build && tsc --project .",
+		"format": "prettier --write \"**/*.{js,ts,yml,json,md}\"",
 		"test": "yarn build && (cd test && yarn --check-files && yarn tslint --project .)"
 	},
 	"devDependencies": {
+		"@hoishin/prettierrc": "^2.0.0",
 		"del-cli": "^1.1.0",
+		"prettier": "^1.15.3",
 		"tslint": "^5.11.0",
 		"typescript": "^3.1.1"
 	},

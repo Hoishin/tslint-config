@@ -15,11 +15,12 @@ yarn add -D @hoishin/tslint-config
 ```
 
 ## Usage
+
 In tslint.json
 
 ```json
 {
-	"extends": "@hoishin/tslint-config",
+	"extends": "@hoishin/tslint-config"
 
 	// Your configuration...
 }
