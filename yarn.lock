@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@hoishin/prettierrc@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@hoishin/prettierrc/-/prettierrc-2.0.0.tgz#7d650569ee41a35c09e19b2085486b263daa96de"
-  integrity sha512-mE70Kw9ipvfoBjXRKcRkVd1hARRAZ86ANnKhavb/UEt5GoquDzEV+Qik3SFGtlxyDoy1hiv7HfX8StI3w6e54Q==
+"@hoishin/prettierrc@2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@hoishin/prettierrc/-/prettierrc-2.1.1.tgz#adebd54c4968842689b51f9fc1a981ba3a57adad"
+  integrity sha512-E4MT/dLaRhS8zEBZwFNIOd7OB24npiizdEh0ISogQZh9Ldw4zFnWtpOt3hXt/ruKM9eG/N56mj5dF4cQW+jhsw==
 
 ansi-align@^2.0.0:
   version "2.0.0"
